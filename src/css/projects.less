@@ -1,6 +1,10 @@
-.dialog-content {
+@import './variables.less';
 
-    // Add custom styles for your projects descriptions here
+.item-content {
+
+    // Add custom styles for your project / snippet descriptions here.
+    // Scoped to the detail-page container so the HTML bodies in
+    // ProjectsData.ts / SnippetsData.ts pick up these styles.
 
     .paragraph {
         margin: 20px 0px;
@@ -24,20 +28,35 @@
     }
 
     .notice {
-        border:1px solid rgb(0, 85, 0);
-        background-color: rgb(144, 196, 144);
-        color: rgb(1, 99, 1);
+        border: 1px solid rgb(0, 85, 0);
+        background-color: rgba(35, 189, 105, 0.15);
+        color: rgb(144, 220, 170);
         padding: 10px;
     }
 
     a {
-        color:#696969;
+        color: @textColor;
         opacity: 1;
         text-decoration: underline;
     }
-    
+
     a:hover {
-        opacity: 0.6;
+        opacity: 0.7;
+    }
+
+    pre {
+        background-color: rgba(0, 0, 0, 0.35);
+        color: @textColor;
+        padding: 14px 18px;
+        overflow-x: auto;
+        border-radius: 2px;
+        line-height: 1.4em;
+        font-size: 0.9em;
+    }
+
+    audio {
+        width: 100%;
+        max-width: 500px;
     }
 
     @media only screen and (min-width: 620px){
@@ -50,7 +69,7 @@
             margin: 15px;
             width : 300px;
         }
-    
+
         .pc-screenshot {
             margin: 15px;
             width : 400px;

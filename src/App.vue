@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    
-    <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
-
     <Header />
     <div class="main">
       <transition name="fade" mode="out-in">
@@ -67,7 +64,7 @@ a {
   text-decoration: none;
   opacity: 0.5;
 }
-a:hover, .router-link-exact-active {
+a:hover, .router-link-active, .router-link-exact-active {
   opacity: 1;
 }
 

@@ -2,3 +2,10 @@
 @contentBgColor: #434348;
 @textColor: #dcdcdc;
 @skillRateCircleColor: #ffffff;
+
+// Project accent: derived from the published state, not authored per project.
+@publishedAccentColor: @textColor;
+@unpublishedAccentColor: mix(@textColor, @contentBgColor, 50%);
+
+// Snippet accent: always the same off-white as the published project accent,
+// reusing @textColor rather than a second literal white/off-white value.

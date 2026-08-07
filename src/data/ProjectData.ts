@@ -1,19 +1,17 @@
 export default class ProjectData {
     id: string;
     name: string;
+    summary: string; // short one-liner shown in the list row
     htmlDescription: string;
-    iconUrl: string; // used as thumnail
-    isWide: boolean; // thumbnail will take 2 cols in the grid view
-    isHigh: boolean; // thumbnail will take 2 rows in the grid view
-    accentColor: string; // color of title bar 
+    iconUrl: string; // used as thumbnail
+    isPublished: boolean; // true only when the description offers a playable / installable build; source code alone doesn't count
 
-    constructor(id: string, name: string, iconUrl: string, html: string, accentColor = "#000000", isHigh = false, isWide = false){
+    constructor(id: string, name: string, iconUrl: string, summary: string, html: string, isPublished = false) {
         this.id = id;
         this.name = name;
+        this.summary = summary;
         this.htmlDescription = html;
         this.iconUrl = iconUrl;
-        this.isHigh = isHigh;
-        this.isWide = isWide;
-        this.accentColor = accentColor;
+        this.isPublished = isPublished;
     }
 }
