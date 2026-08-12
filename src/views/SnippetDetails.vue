@@ -4,7 +4,7 @@
     :item="snippet"
     :relatedProjects="relatedProjects"
     backPath="/snippets"
-    backLabel="Back to Snippets"
+    backLabel="Retour aux snippets"
   />
 </template>
 

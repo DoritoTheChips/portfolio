@@ -10,7 +10,7 @@
     </div>
 
     <div class="item-related" v-if="relatedProjects.length">
-      <h3>Related projects</h3>
+      <h3>Projets liés</h3>
       <ul>
         <li v-for="relatedProject in relatedProjects" :key="relatedProject.id">
           <router-link :to="'/projects/' + relatedProject.id">{{ relatedProject.name }}</router-link>

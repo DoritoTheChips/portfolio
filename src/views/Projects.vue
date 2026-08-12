@@ -1,17 +1,12 @@
 <template>
   <div>
-    <h1>Projects</h1>
+    <h1>Projets</h1>
 
     <div style="margin-bottom: 30px;">
-      A collection of games and other things I've built or heavily contributed to.
-      Pick one to read the full story.
+      Une collection de jeux et d'autres trucs que j'ai faits, seul ou en équipe.
     </div>
 
     <ItemList :items="projects" basePath="/projects" />
-
-    <div style="margin-top: 30px;">
-      There is more to see on <a target="_blank" href="https://someexternalwebsite.com">some external website</a>.
-    </div>
   </div>
 </template>
 

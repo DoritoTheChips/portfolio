@@ -1,20 +1,39 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Bonjour !</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        Je m'appelle <strong>Rodin</strong> et je dev des jeux.<br/>
+        Je ne touche qu'à la création numérique : je fais des musiques, des vidéos, du montage, de la
+        modélisation 3D, du level design, et surtout beaucoup de
+        <router-link to="/projects">jeux vidéo</router-link>.
       </div>
 
-      <div style="margin-top: 20px;">I've shipped a bunch of <router-link to="/projects">projects</router-link>, published a few smaller <router-link to="/snippets">snippets</router-link> on the side, and taken part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        Je suis allé 3 ans à l'ENJMIN, une école d'informatique de jeux vidéo, où j'ai réalisé 3 projets
+        avec mes camarades de classe :
+        <router-link to="/projects/let-me-cook">Let Me Cook</router-link>,
+        <router-link to="/projects/super-dungeon-crawler">Super Dungeon Crawler</router-link> et
+        <router-link to="/projects/bagarre">Bagarre</router-link>.
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
-    </div>
+      <div style="margin-top: 20px;">
+        J'utilisais beaucoup Unity dans mes premiers projets perso, c'est aussi avec ce moteur que j'ai
+        appris à coder en C# en parallèle de mes cours de NSI qui m'ont appris le Python. J'ai plus tard
+        basculé sur Godot et je suis resté dessus à ce jour.<br/>
+        J'ai passé 2 années de mon alternance sur Unity, où j'ai appris à pratiquer le moteur dans un
+        contexte professionnel. C'est durant ces deux années que j'ai aussi appris à optimiser les
+        performances et la taille des fichiers des jeux que l'on réalisait.<br/>
+        J'ai notamment eu l'occasion de goûter au JavaScript et plus particulièrement à Phaser à la fin
+        de mon alternance, moteur sur lequel j'ai fait du portage de jeux Unity vers Phaser.
+      </div>
 
-    <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <div style="margin-top: 40px;">
+        Je cherche principalement un poste en tant que <strong>Level Designer</strong>, mais je suis
+        aussi complètement ouvert à d'autres postes dans le game dev. Vous pouvez me joindre
+        <router-link to="/contact">par ici</router-link>.
+      </div>
     </div>
 
     <div style="clear:both"></div>
@@ -27,22 +46,4 @@
   max-width: 700px;
   margin-bottom: 20px;
 }
-
-.photo {
-  margin-top: 50px;
-  text-align: center;
-}
-
-@media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
-
-  .photo {
-    float: left;
-    padding: 10px;
-    padding-left: 80px;
-  }
-}
-
 </style>

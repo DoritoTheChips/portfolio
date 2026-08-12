@@ -9,8 +9,9 @@
     >
       <div
         class="item-thumb"
-        :style="{ 'background-image': 'url(' + item.iconUrl + ')' }"
-      ></div>
+        :class="{ 'is-placeholder': !item.iconUrl }"
+        :style="thumbStyle(item)"
+      >{{ item.iconUrl ? "" : initial(item) }}</div>
       <div class="item-body">
         <div class="item-title-row">
           <span class="item-name">{{ item.name }}</span>
@@ -25,6 +26,8 @@
 import Vue from "vue";
 
 interface AccentItem {
+  name: string;
+  iconUrl: string;
   type?: string;
   isPublished?: boolean;
 }
@@ -42,6 +45,16 @@ export default Vue.extend({
         return "is-snippet";
       }
       return item.isPublished ? "is-published" : "is-unpublished";
+    },
+    // Items without an icon fall back to a plain initial on the thumb background.
+    thumbStyle(item: AccentItem): Record<string, string> {
+      if (!item.iconUrl) {
+        return {};
+      }
+      return { "background-image": "url(" + item.iconUrl + ")" };
+    },
+    initial(item: AccentItem): string {
+      return item.name ? item.name.charAt(0).toUpperCase() : "";
     },
   },
 });
@@ -85,6 +98,15 @@ export default Vue.extend({
   background-position: center;
   background-color: @bodyBgColor;
   border-radius: 2px;
+}
+
+.item-thumb.is-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2em;
+  font-weight: 700;
+  opacity: 0.35;
 }
 
 .item-body {

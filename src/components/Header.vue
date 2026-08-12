@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="nav-bar">
-      <router-link to="/" exact>About</router-link>
-      <router-link to="/resume">Resume</router-link>
-      <router-link to="/projects">Projects</router-link>
+      <router-link to="/" exact>À propos</router-link>
+      <router-link to="/resume">CV</router-link>
+      <router-link to="/projects">Projets</router-link>
       <router-link to="/snippets">Snippets</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>

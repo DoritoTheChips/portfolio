@@ -3,7 +3,7 @@
     v-if="project"
     :item="project"
     backPath="/projects"
-    backLabel="Back to Projects"
+    backLabel="Retour aux projets"
   />
 </template>
 
