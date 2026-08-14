@@ -1,24 +1,35 @@
 <template>
   <div>
-    <h1>Snippets</h1>
+    <h1>Réalisations</h1>
 
-    <div class="paragraph">
-      Cette page est encore vide, à venir.
-      <br />En attendant, tout est du côté des <router-link to="/projects">projets</router-link>.
+    <div style="margin-bottom: 30px;">
+      Des musiques, des maps, des modèles 3D et d'autres trucs qui ne sont pas des jeux.
     </div>
+
+    <ItemList :items="snippets" basePath="/realisations" />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import ItemList from "@/components/ItemList.vue";
+import snippetsData from "@/data/SnippetsData.ts";
 
 export default Vue.extend({
   name: "Snippets",
+  components: {
+    ItemList,
+  },
+  data: function () {
+    return {
+      snippets: snippetsData,
+    };
+  },
 });
 </script>
 
-<style scoped>
-.paragraph {
-  max-width: 700px;
-}
+<style scoped lang="less">
+
+@import '../css/variables.less';
+
 </style>

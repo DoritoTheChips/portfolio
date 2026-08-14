@@ -4,8 +4,13 @@ import VueRouter, { RouteConfig } from 'vue-router'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
+  // The site opens on the projects list; About lives at its own path.
   {
     path: '/',
+    redirect: '/projects'
+  },
+  {
+    path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
@@ -25,14 +30,23 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "projects" */ '../views/ProjectDetails.vue')
   },
   {
-    path: '/snippets',
+    path: '/realisations',
     name: 'Snippets',
     component: () => import(/* webpackChunkName: "snippets" */ '../views/Snippets.vue')
   },
   {
-    path: '/snippets/:id',
+    path: '/realisations/:id',
     name: 'SnippetDetails',
     component: () => import(/* webpackChunkName: "snippets" */ '../views/SnippetDetails.vue')
+  },
+  // The section was renamed from "Snippets"; keep the old paths working.
+  {
+    path: '/snippets',
+    redirect: '/realisations'
+  },
+  {
+    path: '/snippets/:id',
+    redirect: '/realisations/:id'
   },
   {
     path: '/contact',

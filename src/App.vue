@@ -60,12 +60,12 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
-  text-decoration: none;
-  opacity: 0.5;
-}
-a:hover, .router-link-active, .router-link-exact-active {
+  color: @linkColor;
+  text-decoration: underline;
   opacity: 1;
+}
+a:hover {
+  color: @linkHoverColor;
 }
 
 h1 {

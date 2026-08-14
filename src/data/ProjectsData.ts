@@ -9,7 +9,7 @@ export default [
         <br/>On a ensuite repris le projet chez Teamchips Studio pour le publier sur Steam.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/bjvOOzLlWk8" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -17,6 +17,34 @@ export default [
         <div class="notice">
             Disponible sur <a href="https://store.steampowered.com/app/2947780/Dashlab/" target="_blank">Steam</a>.
         </div>
+    </div>
+
+    <div class="paragraph">
+        Certaines musiques sont "hardware accurate", ou rétro-compatibles avec la NES.
+        <br/>J'ai essayé avec Double Tap (en utilisant mon programme <a href="#/projects/ub2ft">ub2ft</a>) et ça donne ça :
+    </div>
+
+    <div class="paragraph">
+        <div class="caption">Export original (Ultrabox)</div>
+        <audio controls preload="none" src="assets/projects/dashlab/double-tap-ultrabox.wav"></audio>
+
+        <div class="caption">Export Famitracker</div>
+        <audio controls preload="none" src="assets/projects/dashlab/double-tap-famitracker-export.wav"></audio>
+
+        <div class="caption">Export émulateur (Bizhawk)</div>
+        <audio controls preload="none" src="assets/projects/dashlab/double-tap-NES-emulator-record.wav"></audio>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Et la rom si vous voulez essayer de votre côté :)
+            <a href="assets/projects/dashlab/double-tap-rom.nes" download>double-tap-rom.nes</a>
+        </div>
+    </div>
+
+    <div class="paragraph">
+        Je pense qu'on peut avoir un meilleur résultat si on retape la musique sur Famitracker, mais j'ai la flemme de bien le faire..
+        C'était surtout un proof-of-concept pour voir à quoi ça pourrait ressembler sur une vraie NES.
     </div>
 
     <div class="paragraph closing-note">
@@ -34,7 +62,7 @@ export default [
         <br/>On a ensuite repris le projet chez Teamchips Studio pour le publier sur le Play Store.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/FKN8Jxn-pQI" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -51,12 +79,12 @@ export default [
         <br/>J'ai travaillé sur le level design du jeu, sur l'éclairage et sur "les musiques" du jeu. Je mets les musiques entre guillemets car la plupart ont été scrapped ; du coup je les ai recyclées et la plupart sont maintenant dans ColonTags.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <img class="pc-screenshot" src="assets/projects/bagarre/bagarre_blender_map.png" alt="Bagarre - map en cours de construction sous Blender" />
         <img class="pc-screenshot" src="assets/projects/bagarre/bagarre_screen_1.png" alt="Bagarre - capture d'écran en jeu" />
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Construction Zone</div>
         <video controls preload="metadata">
             <source src="assets/projects/bagarre/construction_zone_preview.mp4" type="video/mp4" />
@@ -64,7 +92,7 @@ export default [
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Ice Map</div>
         <video controls preload="metadata">
             <source src="assets/projects/bagarre/ice_map_preview.mp4" type="video/mp4" />
@@ -72,7 +100,7 @@ export default [
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Reactor Map</div>
         <video controls preload="metadata">
             <source src="assets/projects/bagarre/reactor_map_preview.mp4" type="video/mp4" />
@@ -102,11 +130,11 @@ export default [
         <br/>J'ai travaillé sur le level design du jeu. J'ai fait la plupart des assets des niveaux, le texturing et l'éclairage.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/t2fH2ULvLlY" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Capture d'une session de jeu</div>
         <video controls preload="metadata">
             <source src="assets/projects/let-me-cook/2024-05-31%2016-03-26.mp4" type="video/mp4" />
@@ -152,7 +180,7 @@ export default [
         <br/>J'ai aussi fait quelques musiques dans le jeu.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/37aFdthNds0" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -174,7 +202,7 @@ export default [
         <br/>Au final je n'ai pas rendu ce projet-là car il ne cochait pas assez de cases pour être admissible (j'ai rendu Super Meatball à la place).
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/um2-rMuHk6g" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -196,7 +224,7 @@ export default [
         <br/>Je codais ce jeu au lycée pendant les cours, c'était la première fois que je faisais vraiment un jeu et je tenais à le publier pour le finir à 100%.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/J2yqTvKTKi4" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -236,7 +264,7 @@ export default [
         <br/>C'est un spaghetti code à cause du multi, mais le résultat est là et je suis très satisfait du level design du jeu.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/softbud/preview.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -268,7 +296,7 @@ export default [
         <br/>Je ne modère absolument plus du tout ce serveur, je ne connais quasiment personne dessus à part le fondateur avec moi et quelques modérateurs.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/vectorier-unity-editor/Vectorier-Unity-Editor_Alpha2.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -293,7 +321,7 @@ export default [
         <br/>Réalisé sans utilisation d'IA.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/KXEvPfnszHM" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -315,7 +343,7 @@ export default [
         <br/>Conçu initialement pour revendre ce jeu à l'entreprise pour laquelle je travaillais à ce moment-là (Hoora), je ne savais pas vraiment comment gérer l'animation des oiseaux et j'avais la flemme de continuer ce projet, alors il est resté comme ça.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/penguin-run/preview.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -334,7 +362,7 @@ export default [
         <br/>Encore une fois, ce jeu a été conçu pour le revendre à l'entreprise pour laquelle je travaillais à ce moment-là (Hoora). Le jeu était vraiment sur l'app à un moment, avant qu'ils remplacent tous les jeux, mais je l'ai vraiment revendu let's go :DDDD
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/color-finder/preview.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -354,7 +382,7 @@ export default [
         <br/>J'ai repris beaucoup d'assets de Half-Life 1 pour ce jeu, parce que je trouvais que ça collait bien à la DA.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Poursuite</div>
         <video controls preload="metadata">
             <source src="assets/projects/drun/chase.mp4" type="video/mp4" />
@@ -362,7 +390,7 @@ export default [
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Ouverture des portes</div>
         <video controls preload="metadata">
             <source src="assets/projects/drun/porte.mp4" type="video/mp4" />
@@ -370,7 +398,7 @@ export default [
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Passe d'optimisation</div>
         <video controls preload="metadata">
             <source src="assets/projects/drun/LOPTIMIZATIONNNN.mp4" type="video/mp4" />
@@ -405,7 +433,7 @@ export default [
         <br/>J'ai fait ce programme pour simplifier le téléchargement et l'organisation de fichiers torrent pour des proches, et je me suis permis d'ajouter une DA au logiciel que j'apprécie particulièrement c:
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/doritorrent/doritorrent_2026_review.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -424,14 +452,14 @@ export default [
         <br/>Le nom ne veut rien dire et n'a aucun rapport avec le jeu, mais c'est aussi un jeu passe-temps tout comme Drun, que je codais sans l'intention de l'aboutir.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/wrong-place/wrong-place1.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Build de debug, novembre 2023</div>
         <video controls preload="metadata">
             <source src="assets/projects/wrong-place/wrong-place_DEBUG_2023-11-29_16-03-51.mp4" type="video/mp4" />
@@ -439,7 +467,7 @@ export default [
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Build de debug, décembre 2023</div>
         <video controls preload="metadata">
             <source src="assets/projects/wrong-place/wrong-place_DEBUG_2023-12-07_15-35-58.mp4" type="video/mp4" />
@@ -454,7 +482,7 @@ export default [
         Fait sur Godot, sans utilisation d'IA.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/wario-ware-music-player/preview.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
@@ -474,14 +502,14 @@ export default [
         <br/>Je n'ai malheureusement pas fini ce jeu car j'ai perdu de l'intérêt pour celui-ci, j'avais d'autres idées de projet plus intéressantes que celle-là.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/super-meatball-2/meatball2-preview.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.
         </video>
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <div class="caption">Menu</div>
         <video controls preload="metadata">
             <source src="assets/projects/super-meatball-2/meatball2-menu.mp4" type="video/mp4" />
@@ -511,7 +539,7 @@ export default [
         <br/>J'étais inspiré par l'ambiance des couloirs vides de mon lycée quand j'ai fait ce jeu. J'aime beaucoup la DA et le character controller, je suis juste déçu de ne pas avoir eu l'occasion de continuer ce jeu.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/J8safeu86m0" frameborder="0" allowfullscreen></iframe>
     </div>
     `, false),
@@ -523,7 +551,7 @@ export default [
         <br/>Similaire à Five Nights at Ferdinand Fabre, je voulais simplement faire un jeu d'ambiance sans but particulier ; j'aimais bien les poolrooms pendant cette période et je voulais essayer d'en faire moi-même, voilà.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/-4nwDEVGOI8" frameborder="0" allowfullscreen></iframe>
     </div>
 
@@ -543,7 +571,7 @@ export default [
         <br/>J'ai le souvenir d'avoir utilisé de l'IA pour m'aider à faire un système pour switch d'arme parce que je galérais trop.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <iframe class="youtube" src="https://www.youtube.com/embed/QC5mdbRDQEA" frameborder="0" allowfullscreen></iframe>
     </div>
     `, false),
@@ -555,7 +583,7 @@ export default [
         <br/>Je savais pas ce que je faisais mdr, je savais même pas coder et j'ai quand même essayé ; c'était un peu avant l'IA du coup je cherchais juste des templates de code sur internet et j'essayais de les modifier même si je comprenais rien.
     </div>
 
-    <div class="paragraph center">
+    <div class="paragraph">
         <video controls preload="metadata">
             <source src="assets/projects/backroom-ps1/backroom.mp4" type="video/mp4" />
             Votre navigateur ne supporte pas la lecture vidéo.

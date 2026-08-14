@@ -3,8 +3,8 @@
     v-if="snippet"
     :item="snippet"
     :relatedProjects="relatedProjects"
-    backPath="/snippets"
-    backLabel="Retour aux snippets"
+    backPath="/realisations"
+    backLabel="Retour aux réalisations"
   />
 </template>
 

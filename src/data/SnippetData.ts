@@ -1,4 +1,4 @@
-export type SnippetType = 'music' | 'code' | 'video';
+export type SnippetType = 'music' | 'code' | 'video' | 'model' | 'level' | 'misc';
 
 export default class SnippetData {
     id: string;

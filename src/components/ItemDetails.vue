@@ -114,31 +114,10 @@ export default Vue.extend({
   padding-left: 20px;
 }
 
-.item-related a {
-  color: @textColor;
-  opacity: 0.8;
-  text-decoration: none;
-}
-
-.item-related a:hover {
-  opacity: 1;
-  text-decoration: underline;
-}
-
 .item-back {
   margin-top: 60px;
   padding-top: 20px;
   border-top: 1px solid fade(@textColor, 15%);
-}
-
-.item-back a {
-  color: @textColor;
-  opacity: 0.8;
-  text-decoration: none;
-}
-
-.item-back a:hover {
-  opacity: 1;
 }
 
 @media only screen and (max-width: 620px){

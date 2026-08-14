@@ -1,10 +1,10 @@
 <template>
   <div class="header">
     <div class="nav-bar">
-      <router-link to="/" exact>À propos</router-link>
-      <router-link to="/resume">CV</router-link>
       <router-link to="/projects">Projets</router-link>
-      <router-link to="/snippets">Snippets</router-link>
+      <router-link to="/realisations">Réalisations</router-link>
+      <router-link to="/about">À propos</router-link>
+      <router-link to="/resume">CV</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>
@@ -32,7 +32,11 @@ export default Vue.extend({
   line-height: 3em;
 }
 
+// Tabs are navigation chrome, so they opt out of the blue underlined link style.
 a {
+  color: @textColor;
+  text-decoration: none;
+  opacity: 0.5;
   text-transform: uppercase;
   margin-left: 15px;
   margin-right: 15px;
@@ -41,8 +45,14 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  color: @textColor;
+  opacity: 1;
+}
+
 .router-link-active,
 .router-link-exact-active {
+  opacity: 1;
   border: 0px solid @textColor;
   border-bottom-width: 2px;
 }

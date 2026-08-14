@@ -10,8 +10,12 @@
         margin: 20px 0px;
     }
 
-    .center {
-        text-align: center;
+    // Embedded media is anchored to the left edge of the content column rather
+    // than centered, so every page shares the same left rail as the text.
+    iframe, img, video, audio {
+        display: block;
+        margin-left: 0px;
+        margin-right: auto;
     }
 
     iframe.youtube {
@@ -50,16 +54,6 @@
         margin-bottom: 6px;
     }
 
-    a {
-        color: @textColor;
-        opacity: 1;
-        text-decoration: underline;
-    }
-
-    a:hover {
-        opacity: 0.7;
-    }
-
     pre {
         background-color: rgba(0, 0, 0, 0.35);
         color: @textColor;
@@ -87,12 +81,12 @@
         }
 
         .phone-screenshot {
-            margin: 15px;
+            margin: 15px 15px 15px 0px;
             width : 300px;
         }
 
         .pc-screenshot {
-            margin: 15px;
+            margin: 15px 15px 15px 0px;
             width : 400px;
         }
     }

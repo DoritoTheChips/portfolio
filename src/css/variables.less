@@ -3,6 +3,12 @@
 @textColor: #dcdcdc;
 @skillRateCircleColor: #ffffff;
 
+// Hyperlink blue, lightened for the dark background. Every text link on the site
+// uses this and is always underlined; nav tabs and list rows are chrome, not text
+// links, so they keep @textColor and no underline.
+@linkColor: #8ab4ff;
+@linkHoverColor: lighten(@linkColor, 12%);
+
 // Project accent: derived from the published state, not authored per project.
 @publishedAccentColor: @textColor;
 @unpublishedAccentColor: mix(@textColor, @contentBgColor, 50%);

@@ -71,6 +71,7 @@ export default Vue.extend({
   max-width: 900px;
 }
 
+// Whole-row links are chrome, so they opt out of the blue underlined link style.
 .item-row {
   display: flex;
   align-items: stretch;
@@ -86,6 +87,7 @@ export default Vue.extend({
 
 .item-row:hover {
   background-color: fade(@textColor, 10%);
+  color: @textColor;
   opacity: 1;
   transform: translateX(2px);
 }
