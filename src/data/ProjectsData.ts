@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData('dashlab', 'Dashlab', 'assets/projects/icons/dashlab.png',
+    new ProjectData('dashlab', 'DashLab', 'assets/projects/icons/dashlab.png',
     'Jeu de reflexe "rythmique" 2D sur Unity, publié sur Steam par Teamchips Studio.',
     `
     <div class="paragraph">
@@ -43,13 +43,13 @@ export default [
     </div>
 
     <div class="paragraph">
-        Je pense qu'on peut avoir un meilleur résultat si on retape la musique sur Famitracker, mais j'ai la flemme de bien le faire..
+        Je pense qu'on peut avoir un meilleur résultat si on retape la musique sur Famitracker, mais je n'ai pas pris le temps le faire..
         C'était surtout un proof-of-concept pour voir à quoi ça pourrait ressembler sur une vraie NES.
     </div>
 
     <div class="paragraph closing-note">
-        J'ai uniquement utilisé de l'IA pour la détection de BPM dans le mode endless, parce que j'ai la flemme de traiter de l'audio en code.
-        <br/>Je ne suis pas super fan du player controller, mais j'aime tout de même la DA du jeu et je suis globalement satisfait du reste du gameplay, et surtout du level design sur lequel j'ai passé beaucoup de temps.
+        J'ai uniquement utilisé de l'IA pour la détection de BPM dans le mode endless, car je n'avais pas d'éxperience dans traitement audio en code.
+        <br/>J'aime bien la DA du jeu et je suis globalement satisfait du gameplay, et surtout du level design sur lequel j'ai passé beaucoup de temps.
         <br/>J'ai aussi composé un OST pour le jeu, disponible sur YouTube.
     </div>
     `, true),
@@ -67,7 +67,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Le jeu n'est aujourd'hui plus disponible sur le Play Store, à cause de toutes les réglementations de golem qu'il faut suivre et mettre à jour. Je hais le Play Store et le marché mobile.
+        Le jeu n'est aujourd'hui plus disponible sur le Play Store, à cause de toutes les réglementations de golem qu'il faut suivre et mettre à jour.
         <br/>J'ai aussi fait toutes les musiques.
     </div>
     `, false),
@@ -167,7 +167,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Je n'ai pas fait le design des niveaux, j'avais pas vraiment d'inspi sur ce jeu et puis c'était un peu un projet de dernière minute haha... ^^'
+        Je n'ai pas fait beaucoup de design de niveaux sur ce projet.
     </div>
     `, true),
     new ProjectData('colontags', 'ColonTags', 'assets/projects/icons/colontags.png',
@@ -235,7 +235,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        C'était aussi la première fois que je faisais de la musique, jugez pas svp c'est pas dingue.
+        C'était aussi la première fois que je faisais de la musique.
 
         <div class="center" style="margin-top: 16px;">
             <audio controls preload="none">
@@ -261,7 +261,7 @@ export default [
     <div class="paragraph">
         Jeu fait sur Unity en 2D et réalisé sans utilisation d'IA.
         <br/>C'était la première fois que je faisais un jeu multijoueur, sachant que j'avais initialement codé l'architecture du jeu pour être joué en solo.
-        <br/>C'est un spaghetti code à cause du multi, mais le résultat est là et je suis très satisfait du level design du jeu.
+        <br/>Le code du multijoueur est un peu brut, mais le résultat est là et je suis très satisfait du level design du jeu.
     </div>
 
     <div class="paragraph">
@@ -279,7 +279,7 @@ export default [
 
     <div class="paragraph closing-note">
         J'ai utilisé un outil de chord progression pour faire les musiques de ce jeu, donc j'estime que ce ne sont pas mes créations à 100%.
-        <br/>D'ailleurs j'ai perdu les fichiers source du jeu après avoir changé d'OS parce que j'ai OUBLIÉ DE LE METTRE DANS UNE BACKUP ZEBI, mais je peux vous PROMETTRE que le code du multi était scandaleux.
+        <br/>C'est actuellement le seul projet dont j'ai perdu le code source malheureusement.
     </div>
     `, true),
     new ProjectData('vectorier-unity-editor', 'Vectorier Unity Editor', 'assets/projects/icons/vectorier.webp',
@@ -310,7 +310,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Je sais pas quoi faire ou dire de plus sur ce projet alors voilà..
+        Il y a beaucoup de chose à dire sur ce projet, la meilleur façon de l'explorer est de visiter le serveur Discord.
     </div>
     `, true),
     new ProjectData('ub2ft', 'ub2ft', '',
@@ -340,7 +340,7 @@ export default [
     `
     <div class="paragraph">
         Jeu mobile 3D sur Godot, réalisé sans utilisation d'IA.
-        <br/>Conçu initialement pour revendre ce jeu à l'entreprise pour laquelle je travaillais à ce moment-là (Hoora), je ne savais pas vraiment comment gérer l'animation des oiseaux et j'avais la flemme de continuer ce projet, alors il est resté comme ça.
+        <br/>Conçu initialement pour revendre ce jeu à l'entreprise pour laquelle je travaillais à ce moment-là (Hoora), je ne savais pas vraiment comment gérer l'animation des oiseaux et j'ai perdu de l'intérêt à continuer ce projet, alors il est resté comme ça.
     </div>
 
     <div class="paragraph">
@@ -490,7 +490,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        J'ai passé trop de temps dessus, c'est même pas worth bruh.
+        J'ai passé beaucoup trops de temps sur la compatibilité avec l'ampoule haha.
     </div>
     `, false),
     new ProjectData('super-meatball-2', 'Super Meatball 2', 'assets/projects/icons/meatball-2.png',
@@ -498,7 +498,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D fait sur Godot, réalisé sans utilisation d'IA.
-        <br/>Le code de Super Meatball était pas dingue et j'étais pas très satisfait de l'architecture, alors je voulais le refaire de 0, et je suis parti sur Godot pour essayer un nouveau moteur.
+        <br/>En voulant refaire l'architecture de Super Meatball, j'ai refais le jeu de 0 sur un nouveau projet, et je suis parti sur Godot pour essayer un nouveau moteur.
         <br/>Je n'ai malheureusement pas fini ce jeu car j'ai perdu de l'intérêt pour celui-ci, j'avais d'autres idées de projet plus intéressantes que celle-là.
     </div>
 
@@ -556,7 +556,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Je l'ai plus tard moddé dans un jeu nommé H3VR dans lequel j'ai importé la map (l'éclairage est un peu cheap mais c'est là).
+        Je l'ai plus tard moddé dans un jeu nommé H3VR dans lequel j'ai importé la map (l'éclairage n'était pas le même).
         <div class="center" style="margin-top: 16px;">
             <iframe class="youtube" src="https://www.youtube.com/embed/FwGK_Kd6aqI" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -567,7 +567,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D fait sur Unity.
-        <br/>Ce jeu ne mérite pas autant de devlog.. C'était la première fois que j'expérimentais beaucoup de choses sur un jeu et j'étais rapidement perdu ; j'ai très vite abandonné le jeu mais je suis quand même satisfait de certains scripts.
+        <br/>Ce jeu à connu beaucoup de devlog haha. C'était la première fois que j'expérimentais beaucoup de choses sur un jeu et j'étais rapidement perdu ; j'ai très vite abandonné le jeu mais je suis quand même satisfait de certains scripts.
         <br/>J'ai le souvenir d'avoir utilisé de l'IA pour m'aider à faire un système pour switch d'arme parce que je galérais trop.
     </div>
 

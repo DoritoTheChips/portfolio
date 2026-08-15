@@ -1,8 +1,7 @@
 <template>
   <div class="footer">
     
-    <div class="left">Thème <a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Écrivez-moi à <a href="mailto:my@email.com">my@email.com</a> ou <router-link to="/contact">par ici</router-link></div>
+    <div class="right">Écrivez-moi à <a href="mailto:rodin.zemour@gmail.com">rodin.zemour@gmail.com</a> ou <router-link to="/contact">par ici</router-link></div>
   </div>
 </template>
 
@@ -19,7 +18,7 @@ export default Vue.extend({
 @import '../css/variables.less';
 
 .footer {
-  background-color: @bodyBgColor;
+  background-color: @panelBgColor;
   width: 100%;
   font-size: 0.8em;
   opacity: 0.7;

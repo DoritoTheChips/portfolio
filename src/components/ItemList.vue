@@ -76,7 +76,7 @@ export default Vue.extend({
   display: flex;
   align-items: stretch;
   padding: 12px;
-  background-color: fade(@textColor, 4%);
+  background-color: @panelBgColor;
   border-left: 6px solid transparent;
   border-radius: 2px;
   text-decoration: none;
@@ -86,7 +86,7 @@ export default Vue.extend({
 }
 
 .item-row:hover {
-  background-color: fade(@textColor, 10%);
+  background-color: @panelHoverBgColor;
   color: @textColor;
   opacity: 1;
   transform: translateX(2px);
@@ -98,7 +98,7 @@ export default Vue.extend({
   height: 90px;
   background-size: cover;
   background-position: center;
-  background-color: @bodyBgColor;
+  background-color: fade(#000000, 35%);
   border-radius: 2px;
 }
 

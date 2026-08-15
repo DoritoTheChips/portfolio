@@ -38,16 +38,20 @@ a {
   text-decoration: none;
   opacity: 0.5;
   text-transform: uppercase;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 4px 14px 8px 14px;
   white-space: nowrap;
   display: inline-block;
+  background-color: @panelBgColor;
+  border-radius: 2px;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
 }
 
 a:hover {
   color: @textColor;
   opacity: 1;
+  background-color: @panelHoverBgColor;
 }
 
 .router-link-active,
@@ -63,9 +67,9 @@ a:hover {
   }
 
   a {
-    margin-left: 9px;
-    margin-right: 9px;
-    padding-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px 10px;
   }
 }
 

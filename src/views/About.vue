@@ -6,8 +6,7 @@
       <div>
         Je m'appelle <strong>Rodin</strong> et je dev des jeux.<br/>
         Je ne touche qu'à la création numérique : je fais des musiques, des vidéos, du montage, de la
-        modélisation 3D, du level design, et surtout beaucoup de
-        <router-link to="/projects">jeux vidéo</router-link>.
+        modélisation 3D, du level design, et surtout beaucoup de jeux vidéo.
       </div>
 
       <div style="margin-top: 20px;">
@@ -22,7 +21,10 @@
         J'utilisais beaucoup Unity dans mes premiers projets perso, c'est aussi avec ce moteur que j'ai
         appris à coder en C# en parallèle de mes cours de NSI qui m'ont appris le Python. J'ai plus tard
         pris en main Godot, qui est devenu mon moteur favori.<br/>
-        À ce jour, j'ai abouti un total de 23 projets sur différents moteurs.<br/>
+        À ce jour, j'ai abouti un total de <router-link to="/projects">23 projets</router-link> sur différents moteurs.<br/>
+      </div>
+      
+      <div style="margin-top: 20px;">
         J'ai passé 2 années de mon alternance sur Unity, où j'ai appris à pratiquer le moteur dans un
         contexte professionnel. C'est durant ces deux années que j'ai aussi appris à optimiser les
         performances et la taille des fichiers des jeux produits.<br/>

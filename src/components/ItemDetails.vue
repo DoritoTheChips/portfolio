@@ -96,7 +96,7 @@ export default Vue.extend({
 .item-related {
   margin-top: 50px;
   padding: 16px 20px;
-  background-color: fade(@textColor, 4%);
+  background-color: @panelBgColor;
   border-radius: 2px;
 }
 

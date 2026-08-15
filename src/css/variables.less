@@ -9,6 +9,12 @@
 @linkColor: #8ab4ff;
 @linkHoverColor: lighten(@linkColor, 12%);
 
+// The page sits on the parallax background photo, so every surface is translucent
+// black over it: a scrim over the whole viewport, darker panels on top of that.
+@pageScrimColor: fade(#000000, 58%);
+@panelBgColor: fade(#000000, 45%);
+@panelHoverBgColor: fade(#000000, 65%);
+
 // Project accent: derived from the published state, not authored per project.
 @publishedAccentColor: @textColor;
 @unpublishedAccentColor: mix(@textColor, @contentBgColor, 50%);

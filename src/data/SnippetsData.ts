@@ -1,7 +1,7 @@
 import SnippetData from '@/data/SnippetData.ts'
 
 export default [
-    new SnippetData('dashlab-ost', 'DashLab OST', 'music', '',
+    new SnippetData('dashlab-ost', 'DashLab OST', 'music', 'assets/snippets/icons/dashlab_ost.png',
     'La bande-son complète de DashLab, réalisée principalement sur Ultrabox.',
     `
     <div class="paragraph">
@@ -13,7 +13,7 @@ export default [
     </div>
     `, ['dashlab']),
 
-    new SnippetData('colontags-songs', 'ColonTags Songs', 'music', '',
+    new SnippetData('colontags-songs', 'ColonTags Songs', 'music', 'assets/projects/icons/colontags.png',
     'Les musiques que j\'ai faites pour ColonTags, sur FL Studio.',
     `
     <div class="paragraph">
@@ -80,7 +80,7 @@ export default [
     </div>
     `, ['colontags']),
 
-    new SnippetData('flstudio-stash', 'FL Studio stash', 'music', '',
+    new SnippetData('flstudio-stash', 'FL Studio stash', 'music', 'assets/snippets/icons/fl_studio.png',
     'Une sélection de musiques réalisées sur FL Studio, avec quelques captures du projet.',
     `
     <div class="paragraph">
@@ -156,7 +156,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('ultrabox-stash', 'Ultrabox stash', 'music', '',
+    new SnippetData('ultrabox-stash', 'Ultrabox stash', 'music', 'assets/snippets/icons/ultrabox.png',
     'Une sélection de musiques réalisées sur Ultrabox, plus une faite entièrement sur Famitracker.',
     `
     <div class="paragraph">
@@ -213,7 +213,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('map-source', 'Map Source', 'level', '',
+    new SnippetData('map-source', 'Map Source', 'level', 'assets/snippets/icons/source_logo.png',
     'Des maps faites sur le moteur Source, pour Garry\'s Mod, CS:GO et CS2.',
     `
     <div class="paragraph">
@@ -243,7 +243,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('modding-de-jeux', 'Modding de jeux', 'misc', '',
+    new SnippetData('modding-de-jeux', 'Modding de jeux', 'misc', 'assets/snippets/icons/modding.png',
     'En cours d\'écriture.',
     `
     <div class="paragraph">
@@ -251,7 +251,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('mention-honorable-hoora', 'Mention honorable chez Hoora', 'misc', '',
+    new SnippetData('mention-honorable-hoora', 'Mention honorable chez Hoora', 'misc', 'assets/snippets/icons/hoora.png',
     'En cours d\'écriture.',
     `
     <div class="paragraph">
@@ -277,7 +277,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('builds-minecraft-random', 'Builds Minecraft random', 'misc', '',
+    new SnippetData('builds-minecraft-random', 'Builds Minecraft random', 'misc', 'assets/snippets/icons/minecraft.png',
     'En cours d\'écriture.',
     `
     <div class="paragraph">
@@ -285,15 +285,7 @@ export default [
     </div>
     `),
 
-    new SnippetData('gfx-minecraft', 'GFX Minecraft', 'misc', '',
-    'En cours d\'écriture.',
-    `
-    <div class="paragraph">
-        WIP
-    </div>
-    `),
-
-    new SnippetData('montages-videos-random', 'Montages vidéos random', 'video', '',
+    new SnippetData('gfx-minecraft', 'Rendu Cinema 4D', 'misc', 'assets/snippets/icons/cinema4D.png',
     'En cours d\'écriture.',
     `
     <div class="paragraph">
