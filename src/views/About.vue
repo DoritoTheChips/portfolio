@@ -21,7 +21,7 @@
         J'utilisais beaucoup Unity dans mes premiers projets perso, c'est aussi avec ce moteur que j'ai
         appris à coder en C# en parallèle de mes cours de NSI qui m'ont appris le Python. J'ai plus tard
         pris en main Godot, qui est devenu mon moteur favori.<br/>
-        À ce jour, j'ai abouti un total de <router-link to="/projects">23 projets</router-link> sur différents moteurs.<br/>
+        À ce jour, j'ai réalisé un total de <router-link to="/projects">23 projets</router-link> sur différents moteurs, dont 9 publiés.<br/>
       </div>
       
       <div style="margin-top: 20px;">
@@ -33,8 +33,7 @@
       </div>
 
       <div style="margin-top: 40px;">
-        <h3>Je cherche principalement un poste en tant que <strong>Level Designer</strong>, mais je suis
-        aussi complètement ouvert à d'autres postes dans le game dev. Vous pouvez me joindre
+        <h3>Je cherche un poste de <strong>Level Designer</strong>, et je suis un profil hybride. Vous pouvez me joindre
         <router-link to="/contact">par ici</router-link>.</h3>
       </div>
     </div>

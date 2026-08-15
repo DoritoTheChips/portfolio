@@ -43,7 +43,7 @@ export default [
     </div>
 
     <div class="paragraph">
-        Je pense qu'on peut avoir un meilleur résultat si on retape la musique sur Famitracker, mais je n'ai pas pris le temps le faire..
+        Je pense qu'on peut avoir un meilleur résultat si on retape la musique sur Famitracker, mais je n'ai pas pris le temps de le faire..
         C'était surtout un proof-of-concept pour voir à quoi ça pourrait ressembler sur une vraie NES.
     </div>
 
@@ -76,7 +76,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D multijoueur sur Unreal Engine, réalisé sans utilisation d'IA dans le cadre de la licence ENJMIN (3e année).
-        <br/>J'ai travaillé sur le level design du jeu, sur l'éclairage et sur "les musiques" du jeu. Je mets les musiques entre guillemets car la plupart ont été scrapped ; du coup je les ai recyclées et la plupart sont maintenant dans ColonTags.
+        <br/>J'ai travaillé sur le level design du jeu, sur l'éclairage et sur les musiques du jeu. Une partie des musiques n'a pas été retenue dans la version finale ; du coup je les ai recyclées et la plupart sont maintenant dans <a href="#/projects/colontags">ColonTags</a>.
     </div>
 
     <div class="paragraph">
@@ -175,7 +175,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 2D sur Godot, réalisé sans utilisation d'IA.
-        <br/>Collaboration avec un pote ; je me suis principalement occupé de la partie technique du jeu comme l'optimisation des perfs et du poids de la build, mais aussi de l'architecture du jeu, ce qui nous a permis de maintenir et d'améliorer notre jeu pendant plus d'un an.
+        <br/>Collaboration avec un pote ; je me suis occupé de la partie technique du jeu comme l'optimisation des perfs et du poids de la build, mais aussi de l'architecture du jeu, ce qui nous a permis de maintenir et améliorer notre jeu pendant plus d'un an.
         <br/>J'ai aussi énormément aidé sur l'UI, l'UX et l'accessibilité du jeu.
         <br/>J'ai aussi fait quelques musiques dans le jeu.
     </div>
@@ -191,7 +191,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Non, je n'ai pas trouvé l'idée du jeu lol.
+        Projet initié avec RikuFoxxy à qui revient l'idée du jeu.
     </div>
     `, true),
     new ProjectData('marble-sandbox', 'Marble Sandbox', 'assets/projects/icons/marble-sandbox.png',
@@ -252,7 +252,7 @@ export default [
             </audio>
         </div>
 
-        <div style="margin-top: 12px;">(c'est les meilleurs sons)</div>
+        <div style="margin-top: 12px;">(c'est les meilleurs sons du jeu)</div>
     </div>
     `, true),
     new ProjectData('softbud', 'Softbud', 'assets/projects/icons/softbud.png',
@@ -261,7 +261,7 @@ export default [
     <div class="paragraph">
         Jeu fait sur Unity en 2D et réalisé sans utilisation d'IA.
         <br/>C'était la première fois que je faisais un jeu multijoueur, sachant que j'avais initialement codé l'architecture du jeu pour être joué en solo.
-        <br/>Le code du multijoueur est un peu brut, mais le résultat est là et je suis très satisfait du level design du jeu.
+        <br/>Le code du multijoueur est un peu brut, ça a été un vrai apprentisage et le résultat est là et je suis très satisfait du level design du jeu.
     </div>
 
     <div class="paragraph">
@@ -292,8 +292,7 @@ export default [
     </div>
 
     <div class="paragraph">
-        Un serveur Discord existe, encore actif aujourd'hui.
-        <br/>Je ne modère absolument plus du tout ce serveur, je ne connais quasiment personne dessus à part le fondateur avec moi et quelques modérateurs.
+        Un <a href="https://discord.com/invite/pVRuFBVwC2">serveur Discord</a> existe, encore actif aujourd'hui: la communauté vis aujourd'hui de façon autonomme<br/>
     </div>
 
     <div class="paragraph">
@@ -310,7 +309,7 @@ export default [
     </div>
 
     <div class="paragraph closing-note">
-        Il y a beaucoup de chose à dire sur ce projet, la meilleur façon de l'explorer est de visiter le serveur Discord.
+        Il y a beaucoup de choses à dire sur ce projet, la meilleur façon de l'explorer est de visiter le serveur Discord.
     </div>
     `, true),
     new ProjectData('ub2ft', 'ub2ft', '',
@@ -378,7 +377,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D fait sur Godot, réalisé sans utilisation d'IA.
-        <br/>Je codais ce jeu pour passer le temps sans intention de le finir, j'ai codé moi-même le path finding du jeu sans me baser sur quoi que ce soit.
+        <br/>Je codais ce jeu pour passer le temps, j'ai codé moi-même le path finding du jeu sans me baser sur quoi que ce soit.
         <br/>J'ai repris beaucoup d'assets de Half-Life 1 pour ce jeu, parce que je trouvais que ça collait bien à la DA.
     </div>
 
@@ -449,7 +448,7 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D fait sur Godot, réalisé sans utilisation d'IA.
-        <br/>Le nom ne veut rien dire et n'a aucun rapport avec le jeu, mais c'est aussi un jeu passe-temps tout comme Drun, que je codais sans l'intention de l'aboutir.
+        <br/>Le nom ne veut rien dire et n'a aucun rapport avec le jeu, mais c'est aussi un jeu passe-temps tout comme <a href="#/projects/drun">Drun</a>, que je codais avec l'intention d'expérimenter avec les système de dialogues.
     </div>
 
     <div class="paragraph">
@@ -499,7 +498,7 @@ export default [
     <div class="paragraph">
         Jeu 3D fait sur Godot, réalisé sans utilisation d'IA.
         <br/>En voulant refaire l'architecture de Super Meatball, j'ai refais le jeu de 0 sur un nouveau projet, et je suis parti sur Godot pour essayer un nouveau moteur.
-        <br/>Je n'ai malheureusement pas fini ce jeu car j'ai perdu de l'intérêt pour celui-ci, j'avais d'autres idées de projet plus intéressantes que celle-là.
+        <br/>Je n'ai malheureusement pas fini ce jeu car j'ai dû faire passer en priorité d'autres projets.
     </div>
 
     <div class="paragraph">
@@ -522,7 +521,11 @@ export default [
     `
     <div class="paragraph">
         Jeu 3D fait sur Roblox, sans utilisation d'IA.
-        <br/>J'avais envie de faire un jeu Roblox, c'est tout. J'en suis assez satisfait sans plus.
+        <br/>J'avais envie de faire un jeu Roblox enfin de découvrir le dévelopement de jeux sur cette platforme. 
+    </div>
+
+    <div class="paragraph">
+        <img class="pc-screenshot" src="assets/projects/super-meatball-brawl/preview.png" alt="preview du jeu" />
     </div>
 
     <div class="paragraph">
@@ -576,11 +579,11 @@ export default [
     </div>
     `, false),
     new ProjectData('backroom-ps1', 'backroom-ps1', 'assets/projects/icons/backroom-ps1.png',
-    'Mon tout premier jeu, en 3D sur Unity, fait avant même de savoir coder.',
+    "Mon tout premier jeu, en 3D sur Unity, fait avant d'avoir des bonnes compétences en code.",
     `
     <div class="paragraph">
-        Mon premier jeu, fait sur Unity en 3D, réalisé sans utilisation d'IA.
-        <br/>Je savais pas ce que je faisais mdr, je savais même pas coder et j'ai quand même essayé ; c'était un peu avant l'IA du coup je cherchais juste des templates de code sur internet et j'essayais de les modifier même si je comprenais rien.
+        Mon tout premier jeu, fait sur Unity en 3D, réalisé sans utilisation d'IA avant d'avoir des bonnes compétences en code.
+        <br/>C'était un peu avant l'IA du coup je cherchais des templates de code sur internet et je les modifiais pour les intégrer dans mon jeu.
     </div>
 
     <div class="paragraph">

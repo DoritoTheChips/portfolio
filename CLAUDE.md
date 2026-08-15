@@ -31,6 +31,10 @@ NODE_OPTIONS=--openssl-legacy-provider npm run build
 
 Note: CI runs on Node 16, which doesn't need this flag (see `.github/workflows/deploy.yml`).
 
+### Publishing
+
+`scripts/deploy.sh` (Linux/macOS) and `scripts/deploy.ps1` (Windows) commit pending changes, merge the current branch into `main` if needed, run `npm install`/`lint`/`build` as a local sanity check, then push `main` to `origin` — the actual deploy is GitHub Actions building and publishing on that push. Both accept a "skip confirmation prompts" flag and a "skip the local build check" flag; run either with `--help` / `-SkipBuild` etc. to see the exact flags.
+
 ## Tech stack
 
 - Vue 2.6 + vue-router 3 (hash mode, no server-side routing needed)
@@ -43,7 +47,7 @@ Note: CI runs on Node 16, which doesn't need this flag (see `.github/workflows/d
 - `src/views/` — top-level pages (`About`, `Resume`, `Projects`, `ProjectDetails`, `Snippets`, `SnippetDetails`, `Contact`, `404`). Mostly static markup you edit directly.
   - `About` is the real intro (background, ENJMIN, Unity → Godot, alternance, the Level Designer job search) plus the owner's profile photo (`assets/pfp.png`, floated beside the text above 620px), and links to `/projects`, three project detail pages, and `/contact`.
   - `Snippets` is the view behind the **"Réalisations"** section (the file, component name and data stay `Snippet*`; only the UI label and the route were renamed). It lists the non-game work (music stashes, Source maps, a 3D model, and several WIP entries), followed by a "Plus à venir" note; several entries are deliberately just `WIP` until their content is written.
-  - `Resume` is **intentionally empty for now** — the route and nav entry are kept, the page just shows a heading and a short "à venir" line. Don't delete the view, its route, or `SkillRate.vue`; they're waiting for real content.
+  - `Resume` shows the CV designed in Figma: a WebP render of the single page (`assets/cv/cv-rodin-zemour.webp`, 1400 px wide for a 760 px column) linking to the PDF, which is shipped untouched so its embedded fonts and its clickable links to Steam / itch.io / LinkedIn / YouTube survive. Re-render the WebP from the PDF whenever the CV is updated, and keep the size mentioned in the download link in sync. `SkillRate.vue` is still unused but kept for a future skills section.
   - `Contact` still has the upstream template's placeholder links; the owner will replace them with real handles.
 - `src/components/` — reusable components (`Header`, `Footer`, `ItemList`, `ItemDetails`, `SkillRate`). `ItemList` renders vertical list rows for both Projects and Snippets; `ItemDetails` is the shared body for both detail pages. Keep them generic — don't fork a per-item-kind copy.
 - `src/data/` — `ProjectData.ts` / `ProjectsData.ts` (23 real projects in one list, each with an `isPublished` flag, set to `true` only when the entry offers a playable or installable artifact — Steam, itch.io, Roblox, a store listing, or a direct download; a GitHub source link on its own, an unreleased prototype, or a build that has since been pulled all count as unpublished) and `SnippetData.ts` / `SnippetsData.ts` (the non-game work; snippets have a `type` field kept as metadata — `music | code | video | model | level | misc`, it no longer drives any visual tag — and an optional `projectIds` list of related project ids). List rows and detail pages are rendered dynamically from these files — edit data here rather than hardcoding HTML per project.
@@ -55,6 +59,7 @@ Note: CI runs on Node 16, which doesn't need this flag (see `.github/workflows/d
   - `public/assets/projects/<slug>/<file>` — per-project `.mp4` captures, `.png` screenshots, `.wav` tracks and the odd downloadable (`double-tap-rom.nes`), referenced from `ProjectsData.ts` as `assets/projects/<slug>/<file>` (root-relative-ish, which resolves correctly under the hash router and the `/portfolio/` public path).
   - `public/assets/snippets/<slug>/<file>` — same convention for snippet media (`colontags/` with its `chaos/` subfolder of adaptive tracks, `flstudio/`, `ultrabox/`, `sus_minion/`).
   - `public/assets/pfp.png` — the profile photo used on the About page.
+ - `public/assets/cv/` — the CV PDF and its WebP render, used by the `Resume` view.
  - `public/assets/background.png` — the page background photo (4968×2960, its stray white bottom strip cropped off so mirrored tiles stay seamless).
   - Some filenames contain spaces (e.g. `extra safe toy.ogg`); percent-encode them as `%20` in the data files.
   - Roughly 843 MB in total, and Vue CLI's CopyPlugin copies all of `public/` into `dist/`, so builds are slow and heavy (several minutes). That's expected, not a hang. Note GitHub Pages recommends staying under 1 GB per site, so the media budget is nearly spent — compress new videos before adding them.
