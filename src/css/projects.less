@@ -74,6 +74,12 @@
         max-width: 728px;
     }
 
+    // 0.4x the default video max-width, for the Hoora clips (higher class
+    // specificity than the "video" rule above wins regardless of source order).
+    .hoora-video {
+        max-width: 291px;
+    }
+
     @media only screen and (min-width: 620px){
         iframe.youtube {
             max-width: 728px;
@@ -88,6 +94,13 @@
         .pc-screenshot {
             margin: 15px 15px 15px 0px;
             width : 400px;
+        }
+
+        // 1.5x the .pc-screenshot width above, for the GFX Minecraft renders.
+        // Combined with "pc-screenshot" on the same <img>, comes after it here
+        // so it wins the cascade at equal class specificity.
+        .gfx-large {
+            width: 600px;
         }
     }
 }

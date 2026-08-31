@@ -219,18 +219,18 @@ export default [
     <div class="paragraph">
         <strong>Garry's Mod</strong>
         <ul>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2164641587" target="_blank">Workshop 2164641587</a></li>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2485080286" target="_blank">Workshop 2485080286</a></li>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2164596270" target="_blank">Workshop 2164596270</a></li>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1831639230" target="_blank">Workshop 1831639230</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2164641587" target="_blank">PVP maps pack (kill_side maps)</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2485080286" target="_blank">gm_someone_vibin</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2164596270" target="_blank">ph_discord_house</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1831639230" target="_blank">gm_pool_dorito</a></li>
         </ul>
     </div>
 
     <div class="paragraph">
         <strong>CS:GO</strong>
         <ul>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2750402822" target="_blank">Workshop 2750402822</a></li>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2758400957" target="_blank">Workshop 2758400957</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2750402822" target="_blank">de_tourism</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2758400957" target="_blank">de_pitty</a></li>
         </ul>
     </div>
 
@@ -238,24 +238,114 @@ export default [
         <strong>CS2</strong>
         <br/>J'ai uniquement porté l'une de mes maps CS:GO (aucun screenshots).
         <ul>
-            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3097769594" target="_blank">Workshop 3097769594</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3097769594" target="_blank">de_tourism</a></li>
         </ul>
     </div>
     `),
 
     new SnippetData('modding-de-jeux', 'Modding de jeux', 'misc', 'assets/snippets/icons/modding.png',
-    'En cours d\'écriture.',
+    'Quelques mods et cheats faits sur d\'autres jeux : Super Animal Royale, H3VR, Trombone Champ, Deadlock et Empyrean.',
     `
     <div class="paragraph">
-        WIP
+        <strong>Super Animal Royale</strong>
+        <br/>Un cheat développé avec Melon Loader (Unity).
     </div>
-    `),
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/DWtVIish5AM" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <strong>H3VR</strong>
+        <br/>Principalement des portages de mes propres maps.
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/1lIGKc-EAIM" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/FwGK_Kd6aqI" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <strong>Trombone Champ</strong>
+        <br/>Quelques charts.
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/kDuJ2qXdP4s" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/cRQTwRKBZUo" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/5dSppzqFPAo" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        <strong>Deadlock</strong>
+        <br/>Des mods de modification de sons (très galère à faire).
+        <br/><a href="https://gamebanana.com/members/submissions/sublog/5351696" target="_blank">Voir mes mods sur GameBanana</a>.
+    </div>
+
+    <div class="paragraph">
+        <strong>Empyrean</strong>
+        <br/>Un mod de jetpack.
+    </div>
+
+    <div class="paragraph">
+        <iframe class="youtube" src="https://www.youtube.com/embed/_vq6tzyJvuE" frameborder="0" allowfullscreen></iframe>
+    </div>
+    `, ['poolroom-test']),
 
     new SnippetData('mention-honorable-hoora', 'Mention honorable chez Hoora', 'misc', 'assets/snippets/icons/hoora.png',
-    'En cours d\'écriture.',
+    'Quelques réalisations inédites faites chez Hoora, qui n\'ont jamais vu le jour.',
     `
     <div class="paragraph">
-        WIP
+        Quelques réalisations inédites faites chez Hoora, qui n'ont jamais vu le jour.
+    </div>
+
+    <div class="paragraph">
+        <strong>Itérations d'une page de progression de niveau</strong>
+    </div>
+
+    <div class="paragraph">
+        <div class="caption">Version 1</div>
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/mini_map_version_1.mp4"></video>
+
+        <div class="caption">Version 2</div>
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/mini_map_version_2.mp4"></video>
+
+        <div class="caption">Version 3</div>
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/mini_map_version_3.mp4"></video>
+    </div>
+
+    <div class="paragraph">
+        <strong>Détection de collision basée uniquement sur les angles des couteaux</strong>
+    </div>
+
+    <div class="paragraph">
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/angle_detection_from_scratch.mp4"></video>
+    </div>
+
+    <div class="paragraph">
+        <strong>Portage d'un jeu Unity 3D vers Phaser</strong> (JavaScript, 2D).
+    </div>
+
+    <div class="paragraph">
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/unity3d_to_phaser.mp4"></video>
+    </div>
+
+    <div class="paragraph">
+        <strong>Exposition de statistiques de l'application</strong>
+        <br/>Réalisée et utilisée uniquement dans le back office, pour le divertissement.
+    </div>
+
+    <div class="paragraph">
+        <video class="hoora-video" controls preload="metadata" src="assets/snippets/hoora/hoorastats-v1.mp4"></video>
     </div>
     `),
 
@@ -277,19 +367,18 @@ export default [
     </div>
     `),
 
-    new SnippetData('builds-minecraft-random', 'Builds Minecraft random', 'misc', 'assets/snippets/icons/minecraft.png',
-    'En cours d\'écriture.',
+    new SnippetData('gfx-minecraft', 'GFX Minecraft', 'misc', 'assets/snippets/icons/cinema4D.png',
+    'Quelques rendus 3D d\'un skin Minecraft, faits sur Cinema 4D.',
     `
     <div class="paragraph">
-        WIP
+        Quelques rendus 3D d'un skin Minecraft, faits sur Cinema 4D.
     </div>
-    `),
 
-    new SnippetData('gfx-minecraft', 'Rendu Cinema 4D', 'misc', 'assets/snippets/icons/cinema4D.png',
-    'En cours d\'écriture.',
-    `
     <div class="paragraph">
-        WIP
+        <img class="pc-screenshot gfx-large" src="assets/snippets/cinema4d/random1.png" alt="Rendu 3D d'un skin Minecraft sur Cinema 4D" />
+        <img class="pc-screenshot gfx-large" src="assets/snippets/cinema4d/random3-final.png" alt="Rendu 3D d'un skin Minecraft sur Cinema 4D" />
+        <img class="pc-screenshot gfx-large" src="assets/snippets/cinema4d/climb1-final.png" alt="Rendu 3D d'un skin Minecraft sur Cinema 4D" />
+        <img class="pc-screenshot gfx-large" src="assets/snippets/cinema4d/sleepy1-final.png" alt="Rendu 3D d'un skin Minecraft sur Cinema 4D" />
     </div>
     `),
 ] as SnippetData[];
